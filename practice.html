@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array practice</title>
+    <script>
+function hello(){
+    document.write("hello world")
+  }
+  function hhello(){
+    document.write("hi everyone")
+  }
+  function heello(){
+    document.write("hlo")
+  }
+  function helllo(){
+    document.write("hello...!!!")
+  }
+  function helloo(){
+    document.write("how are you")
+  }
+  function hellooo(){
+    document.write("hi buddy???")
+  }
+  function hellooooo(){
+    document.write("hey")
+  }
+  function hhhello(){
+    document.write("hey")
+  }
+
+  function readParagraphText() {
+            var paragraphText = $("#yourParagraphId").text();
+            console.log(paragraphText);
+        }
+
+        function setParagraphText(newText) {
+            $("#yourParagraphId").text(newText);
+        }
+
+</script>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+
+    <button onclick="hhello()">click me</button> 
+    <button ondblclick="heello()">click me</button>
+     <button oncontext="helllo()">click me</button>
+    <button onmouseenter="helloo()">click me</button>
+    <button onmouseout="hellooo()">click me</button>
+    <button onmousedown="hellooooo()">click me</button>
+    <button onmouseup="hhhello()">click me</button>
+
+
+
+    <p id="yourParagraphId">Original text.</p>
+    <button onclick="readParagraphText()">Read Text</button>
+    <button onclick="setParagraphText('New text has been set.')">Set Text</button>
+
+    <script src="practice.js"></script>
+</body>
+</html>
